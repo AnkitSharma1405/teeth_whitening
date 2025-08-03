@@ -91,22 +91,5 @@ The model was trained on ~6,000 images with the following optimizations:
 
 ---
 
-### 📂 Repository Structure Suggestion
 
-```bash
-.
-├── dataset/
-│   ├── images/
-│   └── labels/
-├── scripts/
-│   └── modify_annotations.py
-├── runs/
-├── best.pt
-└── README.md
-```
 
----
-
-### 📌 Note
-
-This project was built with a focus on **robustness**, **simplicity**, and **performance**, optimized for tooth detection from annotated images using YOLOv8.
