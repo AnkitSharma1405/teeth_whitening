@@ -20,8 +20,7 @@ This guide explains how to run the provided inference script and teeth whitening
 
 1. **Clone your repository**  
    ```bash
-   git clone <[your-repo-url](https://github.com/AnkitSharma1405/teeth_whitening)>.git
-   cd <repo-directory>
+   git clone https://github.com/AnkitSharma1405/teeth_whitening.git
    ```
 
 2. **Create & activate a virtual environment** (optional but recommended)  
