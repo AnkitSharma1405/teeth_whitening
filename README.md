@@ -56,6 +56,16 @@ python inference.py
    ```bash
    python whitening_effect.py
    ```
+## Output Effect:
+
+**Input Image**
+![test image](https://github.com/AnkitSharma1405/teeth_whitening/blob/100d5ffec14d5ab239bcb348f10ce529f65a1b6f/test_images/test_image.jpg)
+
+**Inference Output**
+![Inference](https://github.com/AnkitSharma1405/teeth_whitening/blob/100d5ffec14d5ab239bcb348f10ce529f65a1b6f/output_images/segmented_output.png)
+
+**Whitening Effect**
+![Teeth Whitening](https://github.com/AnkitSharma1405/teeth_whitening/blob/100d5ffec14d5ab239bcb348f10ce529f65a1b6f/output_images/teeth_whitening_02.png)
 
 - **Ensure**:
   - `models/best.pt` exists or update `model = YOLO("…")` path.
