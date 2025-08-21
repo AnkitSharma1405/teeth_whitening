@@ -1,5 +1,5 @@
 
-# Inference Guide: YOLOv8 Segmentation Overlay (CPU)
+# Inference Guide: YOLOv8 Segmentation Overlay
 
 This guide explains how to run the provided inference script and teeth whitening script locally to perform segmentation overlay and bounding‐box drawing on teeth images using a trained YOLOv8 model.
 
