@@ -20,8 +20,7 @@ This guide explains how to run the provided inference script and teeth whitening
 
 1. **Clone your repository**  
    ```bash
-   git clone <your-repo-url>.git
-   cd <your-repo-directory>
+   git clone https://github.com/AnkitSharma1405/teeth_whitening.git
    ```
 
 2. **Create & activate a virtual environment** (optional but recommended)  
@@ -56,6 +55,16 @@ python inference.py
    ```bash
    python whitening_effect.py
    ```
+## Output Effect:
+
+**Input Image**
+![test image](https://github.com/AnkitSharma1405/teeth_whitening/blob/100d5ffec14d5ab239bcb348f10ce529f65a1b6f/test_images/test_image.jpg)
+
+**Inference Output**
+![Inference](https://github.com/AnkitSharma1405/teeth_whitening/blob/100d5ffec14d5ab239bcb348f10ce529f65a1b6f/output_images/segmented_output.png)
+
+**Whitening Effect**
+![Teeth Whitening](https://github.com/AnkitSharma1405/teeth_whitening/blob/100d5ffec14d5ab239bcb348f10ce529f65a1b6f/output_images/teeth_whitening_02.png)
 
 - **Ensure**:
   - `models/best.pt` exists or update `model = YOLO("…")` path.
