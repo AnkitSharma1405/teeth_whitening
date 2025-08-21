@@ -68,8 +68,8 @@ python inference.py
 
 - **Ensure**:
   - `models/best.pt` exists or update `model = YOLO("…")` path.
-  - `test_images/sample.jpg` exists or point `input_path` to your image.
-  - `output_images/` will be created automatically.
+  - `input/sample.jpg or input/sample.mp4` exists or point `input_path` to your image or video.
+  - `output/segmented_output.jpg or output/sample_processed` will be created after program execution.
 
 ---
 
